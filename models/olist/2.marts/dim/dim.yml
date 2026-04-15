@@ -1,0 +1,87 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer dimension table with one row per customer_id."
+    columns:
+      - name: customer_id
+        description: "Primary key for the customer dimension."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_unique_id
+        description: "Stable customer identifier across orders."
+        tests:
+          - not_null
+
+      - name: customer_zip_code_prefix
+        description: "Customer zip code prefix."
+
+      - name: customer_city
+        description: "Customer city."
+
+      - name: customer_state
+        description: "Customer state."
+
+  - name: dim_products
+    description: "Product dimension table with one row per product_id."
+    columns:
+      - name: product_id
+        description: "Primary key for the product dimension."
+        tests:
+          - unique
+          - not_null
+
+      - name: product_category_name
+        description: "Product category name."
+
+      - name: product_name_length
+        description: "Length of the product name."
+
+      - name: product_description_length
+        description: "Length of the product description."
+
+      - name: product_photos_qty
+        description: "Number of product photos."
+
+      - name: product_weight_g
+        description: "Product weight in grams."
+
+      - name: product_length_cm
+        description: "Product length in centimeters."
+
+      - name: product_height_cm
+        description: "Product height in centimeters."
+
+      - name: product_width_cm
+        description: "Product width in centimeters."
+
+
+  - name: dim_date
+    description: "Calendar dimension table with one row per day."
+
+    columns:
+      - name: date
+        description: "Primary key (date)."
+        tests:
+          - not_null
+          - unique
+
+      - name: year
+        description: "Year of the date."
+
+      - name: month
+        description: "Month of the date."
+
+      - name: year_month
+        description: "Year-month formatted as YYYY-MM."
+
+      - name: day_of_week
+        description: "Numeric day of week."
+
+      - name: day_name
+        description: "Name of the day."
+
+      - name: is_weekend
+        description: "Flag indicating weekend."

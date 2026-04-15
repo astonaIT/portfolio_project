@@ -1,0 +1,82 @@
+version: 2
+
+models:
+  - name: int_orders_enhanced
+    description: "Intermediate model at order grain enriching orders with customer attributes, aggregated item and payment metrics, and derived delivery metrics."
+
+    columns:
+      - name: order_id
+        description: "Primary key of the intermediate order model."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Foreign key to customers."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+
+      - name: customer_unique_id
+        description: "Stable customer identifier across orders."
+
+      - name: customer_state
+        description: "Customer state."
+
+      - name: customer_city
+        description: "Customer city."
+
+      - name: order_status
+        description: "Current status of the order."
+
+      - name: order_purchase_ts
+        description: "Timestamp when the order was placed."
+        tests:
+          - not_null
+
+      - name: order_approved_at
+        description: "Timestamp when the order was approved."
+
+      - name: order_delivered_carrier_date
+        description: "Timestamp when the order was handed to the carrier."
+
+      - name: order_delivered_customer_date
+        description: "Timestamp when the order was delivered to the customer."
+
+      - name: order_estimated_delivery_date
+        description: "Estimated delivery date shown to the customer."
+
+      - name: item_count
+        description: "Number of items in the order."
+
+      - name: items_value
+        description: "Total item value for the order."
+
+      - name: freight_value
+        description: "Total freight value for the order."
+
+      - name: payment_value
+        description: "Total payment value recorded for the order."
+
+      - name: order_gmv
+        description: "Gross merchandise value for the order, calculated as item value plus freight value."
+
+      - name: days_to_approve
+        description: "Days between purchase and approval."
+
+      - name: days_to_deliver
+        description: "Days between purchase and delivery."
+
+      - name: delivery_delay_days
+        description: "Difference in days between actual and estimated delivery date. Positive values indicate late delivery."
+
+      - name: is_delivered
+        description: "Flag indicating whether the order was delivered."
+
+      - name: is_canceled
+        description: "Flag indicating whether the order was canceled."
+
+
