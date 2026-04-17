@@ -185,7 +185,8 @@ Executive Overview
 ![alt text](https://github.com/astonaIT/portfolio_project/blob/6a6aaaf6e611e9c228596e7e47e59b4e22460dd9/assets/1.%20ExecutiveOverview.png "dashboard 1")
 
 Revenue Drivers
-![alt text](https://raw.githubusercontent.com/astonaIT/portfolio_project/main/assets/2.RevenueDrivers.png "dashboard 2")
+![alt text](https://github.com/astonaIT/portfolio_project/blob/3884cce9f0b0038aac4c315f0d2acca70c096eae/assets/2.%20RevenueDrivers.png "dashboard 2")
+
 
 Customers & Operations
 ![alt text](https://raw.githubusercontent.com/astonaIT/portfolio_project/main/assets/3.Customers&Operations.png "dashboard 3")
