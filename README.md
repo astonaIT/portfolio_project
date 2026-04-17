@@ -170,13 +170,15 @@ The project includes data quality checks performed in DBT to ensure consistency:
 
 Tableau dashboards are used to analyze:
 
-overall business performance
+- overall business performance
 
-revenue drivers
+- revenue drivers
 
-customer behavior
+- customer behavior
 
-operational metrics
+- operational metrics
+
+[Link to Dashboard (Tableau Public)](https://public.tableau.com/views/Dashboard_17763553179320/Olistdataset-E-CommerceDashboard)
 
 
 ### Dashboard Preview
@@ -190,6 +192,8 @@ Revenue Drivers
 
 Customers & Operations
 ![alt text](https://github.com/astonaIT/portfolio_project/blob/a2fe647bfc582a162ff309f4a0ff0a15812b4b38/assets/3.%20Customers%26Operations.png "dashboard 3")
+
+
 
 
 ### Key Insights
