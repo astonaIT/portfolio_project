@@ -182,16 +182,16 @@ operational metrics
 ### Dashboard Preview
 
 Executive Overview
-![alt text](https://github.com/astonaIT/portfolio_project/main/assets/1.ExecutiveOverview.png "dashboard 1")
+![alt text](https://raw.githubusercontent.com/astonaIT/portfolio_project/main/assets/1.ExecutiveOverview.png "dashboard 1")
 
 
 Revenue Drivers
 
-![alt text](https://github.com/astonaIT/portfolio_project/main/assets/2.RevenueDrivers.png "dashboard 2")
+![alt text](https://raw.githubusercontent.com/astonaIT/portfolio_project/main/assets/2.RevenueDrivers.png "dashboard 2")
 
 Customers & Operations
 
-![alt text](https://github.com/astonaIT/portfolio_project/main/assets/3.Customers&Operations.png "dashboard 3")
+![alt text](https://raw.githubusercontent.com/astonaIT/portfolio_project/main/assets/3.Customers&Operations.png "dashboard 3")
 
 
 ### Key Insights
