@@ -221,7 +221,7 @@ Due to Tableau Public limitations, data is exported via Google Sheets as a bridg
 
 ---
 
-AI Component (Planned)
+### AI Component (Planned)
 
 A lightweight AI interface will allow users to query the dataset using natural language.
 
