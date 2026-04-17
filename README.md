@@ -189,7 +189,7 @@ Revenue Drivers
 
 
 Customers & Operations
-![alt text](https://raw.githubusercontent.com/astonaIT/portfolio_project/main/assets/3.Customers&Operations.png "dashboard 3")
+![alt text](https://github.com/astonaIT/portfolio_project/blob/a2fe647bfc582a162ff309f4a0ff0a15812b4b38/assets/3.%20Customers%26Operations.png "dashboard 3")
 
 
 ### Key Insights
