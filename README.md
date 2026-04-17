@@ -166,7 +166,7 @@ The project includes data quality checks performed in DBT to ensure consistency:
 
 ---
 
-Visualization
+## Visualization
 
 Tableau dashboards are used to analyze:
 
@@ -179,8 +179,43 @@ customer behavior
 operational metrics
 
 
-(links and screenshots to be added)
+### Dashboard Preview
 
+Executive Overview
+![dash1](https://github.com/astonaIT/portfolio_project/edit/main//assets/1.ExecutiveOverview.png")
+
+
+Revenue Drivers
+
+![dash2](https://github.com/astonaIT/portfolio_project/edit/main//assets/2.RevenueDrivers.png")
+
+Customers & Operations
+
+![dash3](https://github.com/astonaIT/portfolio_project/edit/main//assets/3.Customers&Operations.png")
+
+
+### Key Insights
+
+- ~97% of customers are one-time buyers, indicating low retention
+- GMV is concentrated in a few key states (e.g. São Paulo)
+- A small number of product categories drives the majority of revenue
+- Deliveries are generally early vs estimated, though performance varies by region
+
+---
+### Analytical Approach
+
+The project was designed to:
+
+- separate order-level vs item-level analysis
+- avoid aggregation issues using proper grain modeling
+- ensure data quality via dbt tests
+- build dashboards focused on business questions, not just visuals
+
+---
+
+### Notes
+
+Due to Tableau Public limitations, data is exported via Google Sheets as a bridge between BigQuery and Tableau.
 
 ---
 
