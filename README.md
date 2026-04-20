@@ -226,8 +226,15 @@ Due to Tableau Public limitations, data is exported via Google Sheets as a bridg
 ## Overview
 This project includes an optional AI layer using Tableau Public MCP.
 The purpose of this integration is to allow an MCP-compatible client to inspect and interact with the published Tableau Public dashboard programmatically.
+
 ## Why this approach
 Since the dashboards are published on Tableau Public, a Tableau-focused MCP server is a practical way to explore workbook metadata, views, and dashboard structure through an AI client.
+
+## Demo
+https://github.com/user-attachments/assets/ef405755-1d7c-48fe-84e2-a56afcc22f08
+
+
+
 ## Setup
 This integration uses the Tableau Public MCP Server by wjsutton.
 Example Claude Desktop configuration:
