@@ -21,16 +21,15 @@ Example MCP configuration
 }
 
 ### Example use cases
-Inspect workbook details for the published dashboard
-Retrieve workbook contents and views
-Fetch screenshots of specific views
-Build dashboard documentaion
-Ask an AI client to explain the dashboard structure and key insights
+- Inspect workbook details for the published dashboard
+- Retrieve workbook contents and views
+- Build dashboard documentaion
+- Ask an AI client to explain the dashboard structure and key insights
 Example prompts
-"Get the details of my published Tableau Public workbook."
-"List the views available in this workbook."
-"Explain the main revenue insights shown in this dashboard."
-"Fetch an image of the Executive Overview dashboard."
+- "Get the details of my published Tableau Public workbook."
+- "List the views available in this workbook."
+- "Explain the main revenue insights shown in this dashboard."
+- "Fetch an image of the Executive Overview dashboard."
 ### Notes
 This MCP layer is an optional enhancement. The core analytics project remains the dbt + BigQuery + Tableau workflow.
 That MCP config matches the repo’s documented quick-start pattern using npx and the published package name. (GitHub)
