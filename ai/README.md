@@ -30,6 +30,16 @@ Example prompts
 - "List the views available in this workbook."
 - "Explain the main revenue insights shown in this dashboard."
 - "Fetch an image of the Executive Overview dashboard."
+
+### Guide
+Here's an online guide to installation:
+[Link](https://www.npmjs.com/package/@wjsutton/tableau-public-mcp-server)
+and the original repository:
+[GitHub repo](https://github.com/wjsutton/tableau-public-mcp).
+
+### Aknowledgements
+Many thanks to [Will Sutton](https://github.com/wjsutton).
+
 ### Notes
 This MCP layer is an optional enhancement. The core analytics project remains the dbt + BigQuery + Tableau workflow.
 That MCP config matches the repo’s documented quick-start pattern using npx and the published package name. (GitHub)
