@@ -178,7 +178,7 @@ Tableau dashboards are used to analyze:
 
 - operational metrics
 
-[Link to Dashboard (Tableau Public)]([https://public.tableau.com/views/Dashboard_17763553179320/Olistdataset-E-CommerceDashboard](https://public.tableau.com/views/OlistDatasetPortfolioDashboard/Olistdataset-E-CommerceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[Link to Dashboard (Tableau Public)](https://public.tableau.com/views/OlistDatasetPortfolioDashboard/Olistdataset-E-CommerceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ### Dashboard Preview
